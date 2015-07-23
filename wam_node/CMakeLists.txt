@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   wam_srvs
   rospy
   rosbag
+  bag_tools
 )
 
 find_package(PkgConfig REQUIRED)

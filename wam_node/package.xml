@@ -33,6 +33,7 @@
   <run_depend> wam_srvs </run_depend>
   <run_depend> rospy </run_depend>
   <run_depend> rosbag </run_depend>
+  <run_depend> bag_tools </run_depend>
 
   <buildtool_depend>catkin</buildtool_depend>
 
