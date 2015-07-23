@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <!--If you use GDB, note that SIGXCPU will kill the node, you need to tell GDB to pass the signal to the process without interpreting it itself. In GDB's command prompt, that is "handle SIGXCPU nostop print pass" -->
+  <!--<node name="wam_node" type="wam_node" pkg="wam_node" output="screen" launch-prefix="gdb -ex run args"/>-->
+  <node name="wam_node" type="wam_node" pkg="wam_node" output="screen" />
+  <node name="recorder" type="recorder.py" pkg="bag_tools" output="screen" />
+  <node name="hand_playback" type="hand_playback.py" pkg="wam_node" output="screen" />
+  
+</launch>
+

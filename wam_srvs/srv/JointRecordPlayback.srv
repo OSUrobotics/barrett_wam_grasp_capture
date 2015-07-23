@@ -1,0 +1,7 @@
+string data_file	# Fully qualified
+---
+bool ret		# True for success, false for failure
+int32 err_code	
+int32 SUCCESS=0
+int32 SERVICE_NOT_STARTED=1
+int32 SERVICE_ALREADY_RUNNING=2
